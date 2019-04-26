@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bgc_pattern.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    padding: 2px;
+    opacity: 0.8;
+}
+
+nav{
+    max-width: 500px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height: 30px;
+}
+
+.innerNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.innerNav > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin: 2px;
+    background-color: #d1d0d0;
+}
+
+.innerMenuContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.innerMenu{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 100%;
+    height: 34px;
+    background-color: #c7c7c7;
+}
+
+.timer > li{
+    cursor: initial;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer > li > input{
+    text-align: end;
+    font-size: 1em;
+    border: 1px solid #afafaf;
+    width: 40px;
+    height: 34px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.timer > li > .timerBtn{
+    cursor: pointer;
+    width: 60px;
+    background-color: #807f7f;
+}
+
+.timer > li > .taimerStartBtn{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: #dddddd;
+    opacity: 0.8;
+    padding: 5px;
+    border-radius: 4px;
+}
+.column > :first-child input{
+    text-decoration: underline;
+    font-size: 15px;
+    color: #464646;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}

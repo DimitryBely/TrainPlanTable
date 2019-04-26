@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="innerNav">
+                <li>
+                    <ul class="innerMenuContainer">
+                        <li class="innerMenu">Все</li>
+                        <li class="innerMenu">Пн</li>
+                        <li class="innerMenu">Вт</li>
+                        <li class="innerMenu">Ср</li>
+                        <li class="innerMenu">Чт</li>
+                        <li class="innerMenu">Пт</li>
+                        <li class="innerMenu">Сб</li>
+                        <li class="innerMenu">Вс</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="innerMenuContainer">
+                        <li class="innerMenu">
+                            <img src="timer.svg" alt="timer">
+                        </li>
+                    </ul>
+                </li>
+                <li class="timer" style="display: none;">
+                    <ul class="innerMenuContainer timer">
+                        <li class="innerMenu">
+                            <input type="button" value="Start" class="timerBtn taimerStartBtn">
+                            <input type="text" name="timer" value="00" class="timerInput">
+                            <span>:</span>
+                            <input type="text" name="timer" value="00" class="timerInput">
+                            <span>:</span>
+                            <input type="text" name="timer" value="00" class="timerInput">
+                            <input type="button" value="+1 мин" class="timerBtn">
+                            <input type="button" value="+5 мин" class="timerBtn">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="wrap row">
+            <div class="column days">
+                <div class=""><input type="text" value="Понедельник"></div>
+                <div class=""><input type="text" value="18:00 Бег - 10 кругов"></div>
+                <div class=""><input type="text" value="После бега:"></div>
+                <div class=""><input type="text" value="Брусья - 20-10-10"></div>
+                <div class=""><input type="text" value="Турник - 4-4-3"></div>
+                <div class=""><input type="text" value="Отжимания(градация)"></div>
+                <div class=""><input type="text" value="Группы мыщц:"></div>
+                <div class=""><input type="text" value="Трицепс, широчайшие"></div>
+                <div class=""><input type="text" value="Грудные"></div>
+            </div>
+            <div class="column days">
+                <div class=""><input type="text" value="Вторник"></div>
+                <div class=""><input type="text" value="Домашние Тренировки"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+            </div>
+            <div class="column days">
+                <div class=""><input type="text" value="Среда"></div>
+                <div class=""><input type="text" value="18:00 - Бег 10 кругов"></div>
+                <div class=""><input type="text" value="После бега:"></div>
+                <div class=""><input type="text" value="Подъем ног, удержание"></div>
+                <div class=""><input type="text" value="Поясница"></div>
+                <div class=""><input type="text" value=""></div>
+                <div class=""><input type="text" value="Группы мыщц:"></div>
+                <div class=""><input type="text" value="Пресс, стабилизаторы"></div>
+                <div class=""><input type="text" value="Поясница"></div>
+            </div>
+            <div class="column days">
+                <div class=""><input type="text" value="Четверг"></div>
+                <div class=""><input type="text" value="Домашние Тренировки"></div>
+                <div class=""><input type="text" value="Приседания 30-3"></div>
+                <div class=""><input type="text" value="Подъем на носках 30-3"></div>
+                <div class=""><input type="text" value="Подъем тела бедр-ми  15-3"></div>
+                <div class=""><input type="text" value=""></div>
+                <div class=""><input type="text" value="Группы мышц:"></div>
+                <div class=""><input type="text" value="Ягодицы, бедра"></div>
+                <div class=""><input type="text" value="Икры"></div>
+            </div>
+            <div class="column days">
+                <div class=""><input type="text" value="Пятница"></div>
+                <div class=""><input type="text" value="18:00 Бег - 10 кругов"></div>
+                <div class=""><input type="text" value="После бега:"></div>
+                <div class=""><input type="text" value="Обр. подтяг.(градация)"></div>
+                <div class=""><input type="text" value="Удержание на брусьях"></div>
+                <div class=""><input type="text" value=""></div>
+                <div class=""><input type="text" value="Группы мыщц:"></div>
+                <div class=""><input type="text" value="Бицепс, плечи"></div>
+                <div class=""><input type="text" value=""></div>
+            </div>
+            <div class="column days">
+                <div class=""><input type="text" value="Суббота"></div>
+                <div class=""><input type="text" value="Домашние Тренировки"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+                <div class=""><input type="text" value="-"></div>
+            </div>
+            <div class="column days">
+                <div class=""><input type="text" value="Воскресенье"></div>
+                <div class=""><input type="text" value="7:00 Бег - 10 кругов"></div>
+                <div class=""><input type="text" value="После бега:"></div>
+                <div class=""><input type="text" value="Кардио 1-1-1 (1 мин):"></div>
+                <div class=""><input type="text" value="Поднимание колен"></div>
+                <div class=""><input type="text" value="Берпи"></div>
+                <div class=""><input type="text" value="Захлест"></div>
+                <div class=""><input type="text" value="Альпинист"></div>
+                <div class=""><input type="text" value="Отдых 1 мин"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
